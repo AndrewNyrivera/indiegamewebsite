@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <audio src=" http://66.90.93.122/ost/cuphead/vtzppibr/03%20Introduction.mp3" controls autoplay></audio>
+
+    <script src="sketch.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <title>INDIE GAMES</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.codeterritory.com/assets/icon_games-dcdfcfb6ee4cc68b7d3ff384885fc1b7.png" />
+    
+    <style>
+            .demo-layout-transparent {
+              background: url('../assets/demos/transparent.jpg') center / cover;
+            }
+            .demo-layout-transparent .mdl-layout__header,
+            .demo-layout-transparent .mdl-layout__drawer-button {
+              /* This background is dark, so we set text to white. Use 87% black instead if
+                 your background is light. */
+              color: white;
+            }
+            </style>
+            
+            <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+              <header class="mdl-layout__header mdl-layout__header--transparent">
+                <div class="mdl-layout__header-row">
+                  <!-- Title -->
+                  <span class="mdl-layout-title"><img src="https://www.codeterritory.com/assets/icon_games-dcdfcfb6ee4cc68b7d3ff384885fc1b7.png" height="50" width="50"></span>
+                  <!-- Add spacer, to align navigation to the right -->
+                  <div class="mdl-layout-spacer"></div>
+                  <!-- Navigation -->
+                  <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" target="blank" href="https://en.wikipedia.org/wiki/Indie_game">Description</a>
+                    <a class="mdl-navigation__link" target="blank" href="https://www.indiegamewebsite.com/contact/">Contact</a>
+                    <a class="mdl-navigation__link" target="blank" href="https://www.digitaltrends.com/gaming/best-indie-games/">Videos</a>
+                    <a class="mdl-navigation__link" href="https://www.udemy.com/content-strategy-for-indie-game-developers/">Content</a>
+                  </nav>
+                </div>
+              </header>
+              <div class="mdl-layout__drawer">
+                <span class="mdl-layout-title">List</span>
+                <nav class="mdl-navigation">
+                  <a class="mdl-navigation__link" target="blank" href="https://www.techradar.com/news/gaming/10-best-indie-games-top-indie-games-on-pc-and-consoles-1300583">Games</a>
+                  <a class="mdl-navigation__link" target="blank" href="https://www.indiegamewebsite.com/contact/">Contact</a>
+                  <a class="mdl-navigation__link" target="blank" href="https://www.gamestop.com/browse?nav=16k-3-console,28zu0">Consoles</a>
+                  <a class="mdl-navigation__link" target="blank" href="https://store.steampowered.com/tags/en/Indie/">New Games</a>
+                </nav>
+              </div>
+              <br />
+              <br />
+              <style>
+                    * {box-sizing: border-box}
+                    body {font-family: Verdana, sans-serif; margin:0}
+                    .mySlides {display: none}
+                    img {vertical-align: middle;}
+                    
+                    /* Slideshow container */
+                    .slideshow-container {
+                      max-width: 1000px;
+                      position: relative;
+                      margin: auto;
+                    }
+                    
+                    /* Next & previous buttons */
+                    .prev, .next {
+                      cursor: pointer;
+                      position: absolute;
+                      top: 50%;
+                      width: auto;
+                      padding: 16px;
+                      margin-top: -22px;
+                      color: white;
+                      font-weight: bold;
+                      font-size: 18px;
+                      transition: 0.6s ease;
+                      border-radius: 0 3px 3px 0;
+                    }
+                    
+                    /* Position the "next button" to the right */
+                    .next {
+                      right: 0;
+                      border-radius: 3px 0 0 3px;
+                    }
+                    
+                    /* On hover, add a black background color with a little bit see-through */
+                    .prev:hover, .next:hover {
+                      background-color: rgba(0,0,0,0.8);
+                    }
+                    
+                    /* Caption text */
+                    .text {
+                      color: #f2f2f2;
+                      font-size: 15px;
+                      padding: 8px 12px;
+                      position: absolute;
+                      bottom: 8px;
+                      
+                      text-align: center;
+                    }
+                    
+                    /* Number text (1/3 etc) */
+                    .numbertext {
+                      color: #f2f2f2;
+                      font-size: 12px;
+                      padding: 8px 12px;
+                      position: absolute;
+                      top: 0;
+                    }
+                    
+                    /* The dots/bullets/indicators */
+                    .dot {
+                      cursor: pointer;
+                      height: 15px;
+                      width: 15px;
+                      margin: 0 2px;
+                      background-color: #bbb;
+                      border-radius: 50%;
+                      display: inline-block;
+                      transition: background-color 0.6s ease;
+                    }
+                    
+                    .active, .dot:hover {
+                      background-color: #717171;
+                    }
+                    
+                    /* Fading animation */
+                    .fade {
+                      -webkit-animation-name: fade;
+                      -webkit-animation-duration: 1.5s;
+                      animation-name: fade;
+                      animation-duration: 1.5s;
+                    }
+                    
+                    @-webkit-keyframes fade {
+                      from {opacity: .4} 
+                      to {opacity: 1}
+                    }
+                    
+                    @keyframes fade {
+                      from {opacity: .4} 
+                      to {opacity: 1}
+                    }
+                    
+                    /* On smaller screens, decrease text size */
+                    @media only screen and (max-width: 300px) {
+                      .prev, .next,.text {font-size: 11px}
+                    }
+                    </style>
+                    </head>
+                    <body>
+                    
+                    <div class="slideshow-container">
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <img src="http://www.mobygames.com/images/covers/l/319702-minecraft-playstation-4-edition-minecraft-plastic-texture-pack-playstation-4-front-cover.jpg" height="800" width="800">
+                      <div class="text">MineCraft</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="http://www.mobygames.com/images/covers/l/429819-cuphead-windows-apps-front-cover.jpg" height="800" width="800">
+                      <div class="text">CupHead</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <img src="https://vignette.wikia.nocookie.net/terraria/images/d/da/CE_Cover-UK.jpg/revision/latest?cb=20120223222150" height="800" width="800">
+                      <div class="text">Terraria</div>
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                    </div>
+                    <br>
+                    
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+                    
+                    <script>
+                    var slideIndex = 1;
+                    showSlides(slideIndex);
+                    
+                    function plusSlides(n) {
+                      showSlides(slideIndex += n);
+                    }
+                    
+                    function currentSlide(n) {
+                      showSlides(slideIndex = n);
+                    }
+                    
+                    function showSlides(n) {
+                      var i;
+                      var slides = document.getElementsByClassName("mySlides");
+                      var dots = document.getElementsByClassName("dot");
+                      if (n > slides.length) {slideIndex = 1}    
+                      if (n < 1) {slideIndex = slides.length}
+                      for (i = 0; i < slides.length; i++) {
+                          slides[i].style.display = "none";  
+                      }
+                      for (i = 0; i < dots.length; i++) {
+                          dots[i].className = dots[i].className.replace(" active", "");
+                      }
+                      slides[slideIndex-1].style.display = "block";  
+                      dots[slideIndex-1].className += " active";
+                    }
+                    </script>
+                    <!-- reference examples at https://www.idangero.us/swiper/demos/#.Vl8kD9-rRHc -->
+<section id="lab_video_slider">
+        <div class="container-fluid">
+          <div class="row">
+            <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+      
+            <!-- Link Swiper's CSS -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/css/swiper.min.css">
+      
+            <!-- Swiper -->
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div id="slide_one" class="swiper-slide">
+                  <!-- VIDEO -->
+                  <iframe id="video2" src="https://www.youtube.com/embed/IP_-6w9oQq0" frameborder="0" width="100%"allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <source src="//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4" type="video/mp4">
+                      <source src="//dl.dropbox.com/s/g3mo3w34pb8pp2l/working-with-espresso.webm" type="video/webm">
+                        <source src="//dl.dropbox.com/s/p37f0avio0x6bs8/working-with-espresso.ogv" type="video/ogg">
+                  </video>
+                  <!-- END VIDEO -->
+                </div>
+      
+                <div id="slide_two" class="swiper-slide">
+        <div id="lab_video_text_overlay">
+          <div class="container">
+            
+            <a href="#" class="btn btn-default">View Our Work</a>
+            <a href="#" class="btn btn-warning">Learn About Us</a>
+      
+          </div>
+        </div>
+        <!-- end #lab_overlay -->
+      
+                 
+                <div id="slide_three" class="swiper-slide">
+                   <!-- VIDEO -->
+                   <iframe id="video2"  src="https://www.youtube.com/embed/zRce4HClYt0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <source src="//dl.dropbox.com/s/5pyuc35wnv5khe1/typing-numbers.ogv" type="video/ogg">
+                  </video>
+                  <!-- END VIDEO -->
+                </div>
+                
+              </div>
+              <div id="slide_one" class="swiper-slide">
+                    <!-- VIDEO -->
+                    <iframe id="video2" src="https://www.youtube.com/embed/5H9IWS3YULw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      <source src="//dl.dropbox.com/s/931244iox7i0fpk/working-with-espresso.mp4" type="video/mp4">
+                        <source src="//dl.dropbox.com/s/g3mo3w34pb8pp2l/working-with-espresso.webm" type="video/webm">
+                          <source src="//dl.dropbox.com/s/p37f0avio0x6bs8/working-with-espresso.ogv" type="video/ogg">
+                    </video>
+                    <!-- END VIDEO -->
+                  </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+              <!-- Add Arrows -->
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+      
+            <!-- Swiper JS -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/js/swiper.min.js"></script>
+      
+            <!-- Initialize Swiper -->
+            <script>
+              var swiper = new Swiper('.swiper-container', {
+                  pagination: '.swiper-pagination',
+                  paginationClickable: true,
+                  nextButton: '.swiper-button-next',
+                  prevButton: '.swiper-button-prev',
+                  spaceBetween: 30,
+                  autoplay: 5000,
+                  autoplayDisableOnInteraction: false
+              });
+            </script>
+          </div>
+          <!-- end .row -->
+        </div>
+        <!-- end .container-->
+        </div>
+        <!-- end #section -->
+        <br />
+        <br />
+        <br />
+        <br />
+        <p></p>
+</head>
+<body>
+
+    
+       
+          
+</body>
+</html>
